@@ -151,6 +151,8 @@ public class Main {
      System.out.println("-------------------------------------------------------------");
      System.out.println( "Ce calcul est fait le "+sdf.format(new Date()));
 
+     System.out.println(     String.copyValueOf("Khalid".toCharArray(),0,3));
+
      /*Scanner scanner =new Scanner(System.in);
      System.out.println ("veuillez entrer votre nom");
      nom=scanner.nextLine();
