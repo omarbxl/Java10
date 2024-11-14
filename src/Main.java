@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -244,6 +245,10 @@ public class Main {
 
 
         System.out.println("Ce calcul est fait le " + sdf.format(new Date()));
+        BigDecimal big = new BigDecimal("12.4");
+
+
+
 
 
 
